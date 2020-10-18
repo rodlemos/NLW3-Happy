@@ -1,0 +1,24 @@
+#page-create-orphanage{display: flex; min-height: 100vh;}
+
+main{flex: 1;}
+
+main > p{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 4rem auto;
+    color: #8FA7B3;
+}
+
+.map-container{margin: 0 0 4rem; border: 1px solid #D3E2E5;}
+.map-container .leaflet-container{border-radius: 2rem 2rem 0 0;}
+
+.map-container footer{
+    background: #F5F8FA;
+    border-radius: 0 0 2rem 2rem;
+    color: #0089A5;
+    font-size: 1.4rem;
+}
+
+.primary-button{background: #37C77F;}
+.primary-button:hover{background: #3EE08F;}
