@@ -79,3 +79,76 @@ a.create-orphanage{
 
 .leaflet-popup-content a:hover{background: #17D6EB;}
 .leaflet-popup-tip{display: none;}
+
+@media screen and (max-width: 750px) {
+    #pages-orphanages {
+     flex-direction: column-reverse;
+    }
+
+    aside {
+        width: 100%;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    aside h2 {
+        margin: 0;
+        font-size: 3rem;
+    }
+
+    aside p {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+    header p {
+        font-size: 1.8rem;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+     aside footer p {
+        line-height: 1;
+        display: inline;
+    }
+
+    a.create-orphanage {
+        bottom: 32%;
+    }
+ }
+
+ @media screen and (max-width: 460px) {
+
+
+    aside h2 {
+        margin: 0;
+        font-size: 1.7rem;
+    }
+
+    aside p {
+        margin-top: 1rem;
+    }
+
+    header p {
+        font-size: 1.4rem;
+    }
+
+    header h2 {
+        font-size:2rem;
+    }
+
+    footer {
+        display: none;
+    }
+
+    a.create-orphanage {
+        bottom: 25%;
+    }
+ }
