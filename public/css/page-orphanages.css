@@ -125,8 +125,6 @@ a.create-orphanage{
  }
 
  @media screen and (max-width: 460px) {
-
-
     aside h2 {
         margin: 0;
         font-size: 1.7rem;
@@ -135,6 +133,8 @@ a.create-orphanage{
     aside p {
         margin-top: 1rem;
     }
+
+    header img {margin-right: 10px;}
 
     header p {
         font-size: 1.4rem;

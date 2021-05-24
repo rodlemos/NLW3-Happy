@@ -1,4 +1,6 @@
-#page-orphanage{display: flex; min-height: 100vh;}
+#page-orphanage{display: flex;}
+
+main{flex: 1;}
 
 main > p{
     font-size: 1.8rem;
@@ -113,3 +115,24 @@ button.active{opacity: 1;}
 
 .open-on-weekends.open p{color: #37C77F;}
 .open-on-weekends.closed p{color: #ff999d;}
+
+@media screen and (max-width: 830px) {
+    .orphanage-details {
+        width: 80%;
+        padding: 40px 2%;
+    }
+
+    .images button {width: 90px;}
+    .orphanage-details-content {padding: 20px;}
+}
+
+@media screen and (max-width: 500px) {
+    .orphanage-details {
+        width: 98%;
+        padding: 40px 2%;
+    }
+
+    .images button {width: 90px;}
+    .orphanage-details-content {padding: 8px;}
+    .orphanage-details-content h1{font-size: 5rem;}
+}

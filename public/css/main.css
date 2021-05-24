@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-body{
-    height: 100vh;
+html,body { height: 100%;}
+
+body {
     color: white;
     background-color: #EBF2F5;
 }

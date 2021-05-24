@@ -1,4 +1,4 @@
-#page-create-orphanage{display: flex; min-height: 100vh;}
+#page-create-orphanage{display: flex;}
 
 main{flex: 1;}
 
@@ -22,3 +22,10 @@ main > p{
 
 .primary-button{background: #37C77F;}
 .primary-button:hover{background: #3EE08F;}
+
+@media screen and (max-width: 830px) {
+    #page-create-orphanage {
+        flex-direction: column;
+    }
+    
+}
