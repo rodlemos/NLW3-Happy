@@ -11,3 +11,9 @@ A aplicação Happy foi desenvolvida durante a terceira edição da Next Level W
 <img src="/public/images/hapythumb.jpg"/>
 <img src="public/images/happythumb.jpg"/>
 </p>
+
+## Tecnologias
+
+  - Javascript
+  - Handlebars
+  - SQLite
